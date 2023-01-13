@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentsgame.gameEgipt"
+    android:id="@+id/okno"
+    android:transitionGroup="true"
+    android:background="@drawable/handegipt"
+    android:animateLayoutChanges="true"
+    >
+
+
+    <ImageView
+        android:id="@+id/tubus1"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/tubus2"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tubus6"
+        app:layout_constraintStart_toEndOf="@+id/tubus4" />
+
+    <ImageView
+        android:id="@+id/tubus3"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/tubus4"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/tubus5"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tubus6"
+        app:layout_constraintStart_toEndOf="@+id/tubus4" />
+
+    <ImageView
+        android:id="@+id/tubus6"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/tubus7"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tubus6"
+        app:layout_constraintStart_toEndOf="@+id/tubus4" />
+
+    <ImageView
+        android:id="@+id/tubus8"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim110"
+        android:layout_marginBottom="@dimen/dim48"
+        android:src="@drawable/grobnica"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tubus6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tubus4" />
+
+    <ImageView
+        android:id="@+id/tubus9"
+        android:layout_width="@dimen/dim30"
+        android:layout_height="@dimen/dim30"
+        android:src="@drawable/grobnicaitem"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tubus4"
+        app:layout_constraintEnd_toEndOf="@+id/tubus4"
+        app:layout_constraintStart_toStartOf="@+id/tubus4" />
+
+    <ImageView
+        android:id="@+id/tubus10"
+        android:layout_width="@dimen/dim30"
+        android:layout_height="@dimen/dim30"
+        android:src="@drawable/grobnicaitem"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tubus5"
+        app:layout_constraintEnd_toEndOf="@+id/tubus5"
+        app:layout_constraintStart_toStartOf="@+id/tubus5" />
+
+    <ImageView
+        android:id="@+id/tubus11"
+        android:layout_width="@dimen/dim30"
+        android:layout_height="@dimen/dim30"
+        android:src="@drawable/grobnicaitem"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tubus6"
+        app:layout_constraintEnd_toEndOf="@+id/tubus6"
+        app:layout_constraintStart_toStartOf="@+id/tubus6" />
+
+    <ImageButton
+        android:id="@+id/tubus12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn"
+        android:padding="@dimen/dim30"
+        android:src="@drawable/go"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tubus13"
+        android:layout_width="236dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="@dimen/dim12"
+        android:layout_marginEnd="@dimen/dim12"
+        android:padding="@dimen/dim30"
+        android:text="@string/repeatGlass"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/spasibo20"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

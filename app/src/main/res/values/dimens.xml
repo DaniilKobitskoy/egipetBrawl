@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim30">-30dp</dimen>
+    <dimen name="dim1">1dp</dimen>
+    <dimen name="dim4">4dp</dimen>
+    <dimen name="dim10">10dp</dimen>
+    <dimen name="dim12">12dp</dimen>
+    <dimen name="dim24">24dp</dimen>
+    <dimen name="dim25">25dp</dimen>
+    <dimen name="dime30">30dp</dimen>
+    <dimen name="dim48">48dp</dimen>
+    <dimen name="dim90">90dp</dimen>
+    <dimen name="dim110">110dp</dimen>
+    <dimen name="spasibo12">12sp</dimen>
+    <dimen name="spasibo14">14sp</dimen>
+    <dimen name="spasibo18">18sp</dimen>
+    <dimen name="spasibo20">20sp</dimen>
+    <dimen name="spasibo22">22sp</dimen>
+    <dimen name="spasibo24">24sp</dimen>
+    <dimen name="spasibo28">28sp</dimen>
+    <dimen name="spasibo32">32sp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571807281598",
+    "project_id": "egyptian-brawl",
+    "storage_bucket": "egyptian-brawl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571807281598:android:8f53bd7a2ec786e3db09ef",
+        "android_client_info": {
+          "package_name": "com.brawlegypt.edyptianbrawl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571807281598-9v1nt2elg3u06f2iqif323dqbotjr323.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmQdO9QraOMm9hdCRr98WFb8MioOvUbWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571807281598-9v1nt2elg3u06f2iqif323dqbotjr323.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
